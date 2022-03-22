@@ -7,6 +7,7 @@ myapp_obj = Flask(__name__)
 
 def home():
   name = {'name': 'Lisa'}
+  city_names = ['Paris','London','Rome','Tahiti']
   return '''
   <html>
     <body>
