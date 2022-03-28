@@ -5,7 +5,7 @@ myapp_obj = Flask(__name__)
 
 @myapp_obj.route("/")
 
-name = 'Lisa'
+#name = 'Lisa'
 #city_names = ['Paris','London','Rome','Tahiti']
 
 def home():
@@ -26,4 +26,5 @@ def home():
     </body>
   </html>'''
 
+name = "Lisa"
 #myapp_obj.run()
