@@ -5,12 +5,12 @@ myapp_obj = Flask(__name__)
 
 @myapp_obj.route("/")
 
-name = {'name':'Lisa'}
-city_names = ['Paris','London','Rome','Tahiti']
+#name = {'name':'Lisa'}
+#city_names = ['Paris','London','Rome','Tahiti']
 
 def home():
-  #name = {name:'Lisa'}
-  #city_names = ['Paris','London','Rome','Tahiti']
+  name = {'name':'Lisa'}
+  city_names = ['Paris','London','Rome','Tahiti']
   return '''
   <html>
     <body>
