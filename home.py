@@ -9,7 +9,7 @@ def home():
   return '''
   <html>
     <body>
-      <h1>Welcome '''+ name['name'] +''' !</h1>
+      <h1>Welcome '''+ name +''' !</h1>
       <a href="www.google.com">not google</a>
       <ul>
         <li>'''+city_names[0]+'''</li>
@@ -20,6 +20,7 @@ def home():
     </body>
   </html>'''
 
-name = {'name':'Lisa'}
+#name = {'name':'Lisa'}
+name = "Lisa"
 city_names = ['Paris','London','Rome','Tahiti']
 #myapp_obj.run()
