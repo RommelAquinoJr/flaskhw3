@@ -27,4 +27,5 @@ def home():
   </html>'''
 
 name = "Lisa"
+city_names = ['Paris','London','Rome','Tahiti']
 #myapp_obj.run()
