@@ -5,7 +5,7 @@ myapp_obj = Flask(__name__)
 
 @myapp_obj.route("/")
 
-name = {name:'Lisa'}
+name = {'name':'Lisa'}
 city_names = ['Paris','London','Rome','Tahiti']
 
 def home():
@@ -14,7 +14,7 @@ def home():
   return '''
   <html>
     <body>
-      <h1>Welcome ''' + name{} + '''!</h1>
+      <h1>Welcome ''' + name{'name'} + '''!</h1>
       <a href="http://www.google.com/">not google</a>
       <ul>
         <li>'''+city_names[0]+'''</li>
